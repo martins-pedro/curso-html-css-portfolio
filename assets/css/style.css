@@ -7,7 +7,7 @@ header {
     border-bottom: 10px solid #000;
 }
 
-h1 {
+header > h1 {
     font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     color: #fff;
     text-shadow: 4px 4px 2px #000;
