@@ -7,10 +7,16 @@ header {
     border-bottom: 10px solid #000;
 }
 
+h1 {
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: 4px 4px 2px #000;
+}
+
 a {
     display: inline-flex;
     margin-right: 30px;
-    color: white;
+    color: #fff;
     text-decoration: none;
     font-size: 20px;
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
@@ -33,8 +39,10 @@ a {
     padding: 17px 18px 17.43px 20px;
     box-shadow: 5px 5px 0px black;
     margin: 0;
+    transition: transform 0.1s linear;
 }
 
 #button:hover {
     background-color: #ff4d00;
+    transform: scale(1.07);
 }
