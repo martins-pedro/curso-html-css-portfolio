@@ -33,7 +33,7 @@ a {
     margin-right: 10px;
 }
 
-#button {
+.button {
     background-color: #FA6F32;
     padding: 17px 18px 17.43px 20px;
     box-shadow: 5px 5px 0px black;
@@ -41,14 +41,21 @@ a {
     transition: transform 0.1s linear;
 }
 
-#button:hover {
+.button:hover {
     background-color: #ff4d00;
     transform: scale(1.07);
 }
 
 main {
-    background-color: gray;
-    height: 86.9vh;
+    background: url(../images/bg-main.png) no-repeat;
+    background-size: cover;
+    height: 90.6vh;
+}
+
+main .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 main .title {
@@ -77,4 +84,19 @@ main .title h2 {
     font-size: 30px;
     font-weight: 400;
     padding-bottom: 44px;
+}
+
+.mainbtn1 {
+    position: absolute;
+    left: 181px;
+    top: 418px;
+}
+
+.mainbtn2 {
+    position: absolute;
+    left: 463px;
+    top: 418px;
+    width: 132px;
+    display: flex;
+    justify-content: center;
 }
