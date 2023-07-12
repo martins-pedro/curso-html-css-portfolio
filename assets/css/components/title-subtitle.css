@@ -1,0 +1,13 @@
+.title {
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #28A814;
+    text-shadow: 4px 4px 0 #000;
+}
+
+.subtitle {
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #FFF;
+    text-shadow: 4px 4px 0 #000;
+}

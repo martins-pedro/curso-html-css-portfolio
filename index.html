@@ -9,13 +9,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/components/reset.css">
+    <link rel="stylesheet" href="assets/css/components/header.css">
+    <link rel="stylesheet" href="assets/css/components/button.css">
+    <link rel="stylesheet" href="assets/css/components/box.css">
+    <link rel="stylesheet" href="assets/css/components/title-subtitle.css">
     <title>Portfólio Feliz</title>
 </head>
 <body>
-    <header>
-        <h1>&ltPM&gt</h1>
+    <header class="index-header">
+        <h1 class="logo">&ltPM&gt</h1>
         <nav>
             <a href="#" class="nav-opt">Skills</a>
             <a href="#" class="nav-opt">Projetos</a>
@@ -25,14 +28,12 @@
         </nav>
     </header>
     <main>
-        <section class="left">
-            <section class="title">
-                <h1>Pedro Martins</h1>
-                <h2>FrontEnd Developer</h2>
-            </section>
-            <a href="#" class="button mainbtn1">Download CV</a>
-            <a href="#" class="button mainbtn2">Contatos</a>
-        </section>
+        <div class="box">
+            <h2 class="title">Pedro Martins</h2>
+            <h3 class="subtitle">FrontEnd Developer</h3>
+        </div>
+        <a href="#" class="button mainbtn1">Download CV</a>
+        <a href="#" class="button mainbtn2">Contatos</a>
     </main>
 </body>
 </html>

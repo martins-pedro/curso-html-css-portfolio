@@ -1,0 +1,32 @@
+.index-header {
+    background-color: #363EAD;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 10px solid #000;
+}
+
+.logo {
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: 4px 4px 2px #000;
+}
+
+.nav-opt {
+    margin-right: 30px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+}
+
+.nav-opt::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #FA6F32;
+    margin-right: 10px;
+}
