@@ -1,0 +1,13 @@
+.progress-bar {
+    width: 320px;
+    height: 40px;
+    background-color: white;
+    border: 5px solid #000;
+    box-sizing: border-box;
+}
+
+.level-progress {
+    width: 60%;
+    height: 100%;
+    background-color: #28A814;
+}

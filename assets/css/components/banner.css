@@ -1,5 +1,7 @@
 .banner {
     background-image: url(../../images/photo-banner2.png);
+    background-size: cover;
+    background-position: 10% 75%;
     height: 800px;
     display: flex;
     border-bottom: 10px solid #000;
