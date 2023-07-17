@@ -2,16 +2,42 @@
     background-color: #363EAD;
     height: 730px;
     text-align: center;
+    border-bottom: 10px solid #7C5E99;
 }
 
 .skills h2 {
     color: #FFF;
     padding-top: 50px;
+    margin-bottom: 60px;
 }
 
 .skills .technology-skills {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 478px;
+    height: 490px;
+    align-items: center;
+    gap: 40px;
+}
+
+.skill-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.progress-position {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 25px;
+}
+
+.progress-position .third-title {
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+
+.img-height {
+    height: 54px;
 }
