@@ -1,0 +1,11 @@
+.section {
+    background-color: #363EAD;
+    text-align: center;
+    border-bottom: 10px solid #7C5E99;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.section h2 {
+    color: #FFF;
+    margin-bottom: 60px;
+}

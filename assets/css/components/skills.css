@@ -1,17 +1,4 @@
-.skills {
-    background-color: #363EAD;
-    height: 730px;
-    text-align: center;
-    border-bottom: 10px solid #7C5E99;
-}
-
-.skills h2 {
-    color: #FFF;
-    padding-top: 50px;
-    margin-bottom: 60px;
-}
-
-.skills .technology-skills {
+.section .technology-skills {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
