@@ -5,7 +5,9 @@
     padding-top: 50px;
     padding-bottom: 100px;
 }
-.main-section h2 {
+
+.main-section > .title {
     color: #FFF;
     margin-bottom: 60px;
+    text-shadow: none;
 }

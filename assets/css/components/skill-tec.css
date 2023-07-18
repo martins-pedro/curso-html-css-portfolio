@@ -2,26 +2,31 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    max-width: 960px;
     height: 490px;
-    align-items: center;
     gap: 40px;
+    margin: 0 auto;
 }
 
 .skill-tec > .skill-items {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    height: 90px;
 }
 
-.progress-position {
+.skill-items .progress-position {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin-left: 25px;
 }
 
-.progress-position .third-title {
+.progress-position .titleTec {
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    color: #FFF;
+    font-size: 25px;
     align-self: flex-start;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
