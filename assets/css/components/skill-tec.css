@@ -4,15 +4,18 @@
     flex-wrap: wrap;
     max-width: 960px;
     height: 490px;
-    gap: 40px;
     margin: 0 auto;
+    gap: 40px;
 }
 
 .skill-tec > .skill-items {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     height: 90px;
+}
+
+.skill-tec > .skill-items:nth-child(odd) {
+    margin-right: 80px;
 }
 
 .skill-items .progress-position {
