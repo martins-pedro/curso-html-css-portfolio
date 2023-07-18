@@ -1,0 +1,12 @@
+.project-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-box > .hoverLogo {
+    transition: transform 0.15s linear;
+}
+
+.project-box > .hoverLogo:hover {
+    transform: scale(1.03);
+}
