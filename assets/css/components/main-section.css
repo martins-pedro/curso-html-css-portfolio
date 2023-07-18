@@ -11,3 +11,8 @@
     margin-bottom: 60px;
     text-shadow: none;
 }
+
+.main-section.-projects {
+    background-color: #000;
+    border-bottom: 10px solid #F25A70;
+}
