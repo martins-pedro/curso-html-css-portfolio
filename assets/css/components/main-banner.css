@@ -1,4 +1,4 @@
-.banner {
+.main-banner {
     background-image: url(../../images/photo-banner2.png);
     background-size: cover;
     background-position: 10% 75%;
@@ -7,11 +7,11 @@
     border-bottom: 10px solid #000;
 }
 
-.banner .box {
+.main-banner .main-box {
     margin: 115px 0 0 90px;
 }
 
-.banner .align-button {
+.main-banner .align-button {
     display: flex;
     justify-content: space-around;
     margin: 38px 0px 0px 90px
