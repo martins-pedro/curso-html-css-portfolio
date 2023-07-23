@@ -1,0 +1,38 @@
+.about-carousel {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    transition: transform 5s ease-in-out;
+}
+
+.about-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.about-carousel .aboutItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    margin-right: 50px;
+    border: 5px solid #000;
+    box-sizing: border-box;
+    position: relative;
+    left: 50%;
+}
+
+
+.about-carousel .aboutItems img{
+    max-height: 100%;
+}
+
+.about-carousel .aboutItems.yellow {
+    background-color: #CEB02A;
+    padding: 0px 15px;
+}
+
+.about-carousel .aboutItems.orange {
+    background-color: #FA6F32;
+    padding: 8px 15px;
+}

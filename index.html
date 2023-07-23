@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="assets/css/components/progress-bar.css">
     <link rel="stylesheet" href="assets/css/components/project-box.css">
     <link rel="stylesheet" href="assets/css/components/card-box.css">
+    <link rel="stylesheet" href="assets/css/components/about-carousel.css">
+    <link rel="stylesheet" href="assets/css/components/arrow-btn.css">
+
     <title>Portfólio Feliz</title>
 </head>
 <body>
@@ -129,42 +132,32 @@
     </section>
     <section class="main-section">
         <h2 class="title">Sobre</h2>
-        <article>
-            Espaço p/ carrossel
-
-            <figure>
-                <a href="#">
+        <article class="about-carousel">
+            <button id="arrow-btn" onclick="arrowMove(1)"></button>
+            <figure class="aboutItems yellow">
                     <img src="assets/images/locaweb.png" alt="Logo LocaWeb">
-                </a>
             </figure>
-            <figure>
-                <a href="#">
+            <figure class="aboutItems caelum">
                     <img src="assets/images/caelum.png" alt="Logo Caelum">
-                </a>
             </figure>
-            <figure>
-                <a href="#">
+            <figure class="aboutItems orange">
                     <img src="assets/images/getninjas.png" alt="Logo GetNinjas">
-                </a>
             </figure>
-            <figure>
-                <a href="#">
+            <figure class="aboutItems caelum">
                     <img src="assets/images/caelum.png" alt="Logo Caelum">
-                </a>
             </figure> 
-            <figure>
-                <a href="#">
+            <figure class="aboutItems yellow">
                     <img src="assets/images/impulso.png" alt="Logo Impulso">
-                </a>
             </figure>
-            <figure>
-                <a href="#">
+            <figure class="aboutItems orange">
                     <img src="assets/images/collabcode.png" alt="Logo CollabCode">
-                </a>
-            </figure>      
+            </figure> 
+            <button id="arrow-btn" onclick="arrowMove(2)"></button>    
         </article>
         <p class="main-paragraph">Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.</p>
     </section>
+
+    <script src="assets/scripts/carousel.js"></script>
 </body>
 </html>
 

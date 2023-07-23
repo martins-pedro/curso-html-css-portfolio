@@ -1,0 +1,14 @@
+#arrow-btn {
+    width: 50px;
+    height: 50px;
+    background-color: #090909;
+    cursor: pointer;
+    position: absolute;
+    left: 93%;
+    transition: transform 0.3s ease-in;
+}
+
+#arrow-btn:first-child {
+    left: 2%;
+    z-index: 1;
+}
