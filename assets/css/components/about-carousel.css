@@ -4,6 +4,8 @@
     overflow-x: auto;
     scroll-behavior: smooth;
     transition: transform 5s ease-in-out;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .about-carousel::-webkit-scrollbar {

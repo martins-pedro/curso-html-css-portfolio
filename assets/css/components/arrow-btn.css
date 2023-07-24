@@ -18,7 +18,6 @@
 
 .arrow-btn.-left::before {
     transform: rotate(180deg) translateX(11px);
-
 }
 
 .arrow-btn:first-child {
