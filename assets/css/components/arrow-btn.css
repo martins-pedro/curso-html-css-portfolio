@@ -13,12 +13,12 @@
     display: block;
     border: 18px solid transparent;
     border-left: 28px solid #FFF;
-    transform: translateX(12px);
+    transform: translateX(11px);
 }
 
-.arrow-btn.-left {
-    transform: rotateY(180deg);
-    box-shadow: -5px 5px 0px 0px #000;
+.arrow-btn.-left::before {
+    transform: rotate(180deg) translateX(11px);
+
 }
 
 .arrow-btn:first-child {
