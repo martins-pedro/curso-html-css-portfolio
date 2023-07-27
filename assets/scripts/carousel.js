@@ -1,7 +1,7 @@
 
 function arrowMove(x) {
 
-    var move = document.querySelector(".about-carousel")
+    var move = document.querySelector(".emmet-carousel")
 
     if (x == 1) {
         move.scrollLeft = move.scrollLeft - 200;

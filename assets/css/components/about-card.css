@@ -1,0 +1,42 @@
+.about-card {
+    margin-right: 50px;
+}
+
+.about-card:last-child {
+    margin-right: 0;
+}
+
+.about-card::before {
+    display: inline-block;
+    content: '';
+    border: 2.5px dashed #000;
+    width: 40px;
+    transform: rotate(90deg) translate(144%);
+}
+
+.about-card .subtitle{
+    font-size: 25px;
+    text-shadow: none;
+    color: #FA6F32;
+    margin-bottom: 50px;
+}
+
+.about-card .emmetLogo {
+    background-color: #CEB02A;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    height: 140px;
+    padding: 0px 20px;
+    border: 5px solid #000;
+    overflow: hidden    ;
+}
+
+.about-card .emmetLogo.-caelumLogo {
+    padding: 0;
+}
+
+.about-card .emmetLogo.-bgOrange {
+    background-color: #FA6F32;
+    padding: 15px 15px;
+}

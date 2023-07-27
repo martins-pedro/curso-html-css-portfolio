@@ -3,9 +3,8 @@
     height: 50px;
     background-color: #FA6F32;
     cursor: pointer;
-    position: absolute;
-    left: 93%;
     box-shadow: 5px 5px 0px 0px #000;
+    transform: translateY(45px);
 }
 
 .arrow-btn::before {
@@ -18,11 +17,6 @@
 
 .arrow-btn.-left::before {
     transform: rotate(180deg) translateX(11px);
-}
-
-.arrow-btn:first-child {
-    left: 2%;
-    z-index: 1;
 }
 
 .spanBtn {
