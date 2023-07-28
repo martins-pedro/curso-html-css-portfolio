@@ -1,14 +1,9 @@
 .emmet-carousel {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     position: relative;
     padding: 0 85px;
-    overflow-x: auto;
-}
-
-.emmet-carousel::-webkit-scrollbar {
-    display: none;
+    overflow: hidden;
 }
 
 .emmet-carousel::after {
@@ -30,6 +25,7 @@
     width: 100%;
     top: 50px;
     left: 0px;
+    box-sizing: border-box;
 }
 
 .emmet-carousel .arrow-btn.-left {
@@ -40,4 +36,17 @@
 .emmet-carousel .arrow-btn.-right {
     position: absolute;
     right: 15px;
+}
+
+.emmet-carousel .emmetCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.emmetCard::-webkit-scrollbar {
+    display: none;
 }
