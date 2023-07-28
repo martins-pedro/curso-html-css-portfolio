@@ -38,15 +38,14 @@
     right: 15px;
 }
 
+.emmet-carousel .itemsCard {
+    overflow: hidden;
+}
+
 .emmet-carousel .emmetCard {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-}
-
-.emmetCard::-webkit-scrollbar {
-    display: none;
+    transition: transform 0.3s ease-in-out;
 }
