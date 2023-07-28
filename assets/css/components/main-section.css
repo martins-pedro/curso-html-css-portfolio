@@ -11,6 +11,7 @@
     color: #FFF;
     margin-bottom: 60px;
     text-shadow: none;
+    font-size: 40px;
 }
 
 .main-section.-projects {
@@ -20,4 +21,9 @@
 
 .main-section.-sobre {
     border-bottom: 10px solid #000;
+}
+
+.main-section.-contatos {
+    background-color: #3A4042;
+    border: none;
 }
