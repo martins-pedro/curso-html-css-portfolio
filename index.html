@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="assets/css/components/emmet-carousel.css">
     <link rel="stylesheet" href="assets/css/components/about-card.css">
     <link rel="stylesheet" href="assets/css/components/arrow-btn.css">
+    <link rel="stylesheet" href="assets/css/components/contact-form.css">
 
     <title>Portfólio Feliz</title>
 </head>
@@ -170,14 +171,13 @@
     <section class="main-section -contatos">
         <h2 class="title">Contatos</h2>
         <form action="" class="contact-form">
-            <label for="nome">Nome</label>
-            <input type="text" name="nome" id="nome">
-            
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email">
-
-            <label for="msg">Mensagem</label>
-            <input type="text" name="msg" id="msg">
+            <label for="nome" class="mainLabel">Nome</label>
+            <input type="text" name="nome" id="nome" class="mainInput">
+            <label for="email" class="mainLabel">E-mail</label>
+            <input type="email" name="email" id="email" class="mainInput">
+            <label for="msg" class="mainLabel">Mensagem</label>
+            <textarea name="msg" id="msg" cols="30" rows="21"></textarea>
+            <button class="main-button -contact">Enviar</button>
         </form>
     </section>
     <script src="assets/scripts/carousel.js"></script>
