@@ -46,7 +46,6 @@
 }
 
 .emmet-carousel .emmetCard {
-    transform: translateX(100px);
     display: flex;
     justify-content: space-between;
     transition: transform 0.3s ease-in-out;
