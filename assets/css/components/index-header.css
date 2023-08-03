@@ -30,3 +30,22 @@
     background-color: #FA6F32;
     margin-right: 10px;
 }
+
+.index-header > .menuBurguer {
+    content: url(../../images/icon-menu.png);
+    height: 40px;
+    width: 44px;
+    image-rendering: pixelated;
+}
+
+@media (max-width: 980px) {
+    .mainNav {
+        display: none;
+    }
+}
+
+@media (min-width: 980px) {
+    .index-header > .menuBurguer {
+        display: none;
+    }
+}
