@@ -5,3 +5,9 @@
     margin: 0 80px;
     text-align: initial;
 }
+
+@media (max-width: 640px) {
+    .main-paragraph {
+        font-size: 20px;
+    }
+}

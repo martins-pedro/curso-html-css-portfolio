@@ -10,3 +10,11 @@
 .project-box > .hoverLogo:hover {
     transform: scale(1.03);
 }
+
+@media (max-width: 950px) {
+    .project-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+}

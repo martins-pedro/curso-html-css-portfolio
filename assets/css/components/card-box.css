@@ -11,3 +11,9 @@
 .card-box.blue {
     background-color: #4C5B84;
 }
+
+@media (max-width: 500px) {
+    .card-box {
+        box-shadow: 5px 5px 0px 0px #FFF;
+    }
+}
